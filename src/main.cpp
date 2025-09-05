@@ -1,5 +1,4 @@
 // :: Standard Headers ::
-#include <iostream>
 
 // :: Project Headers ::
 #include "../include/sumistd/sumistd.hpp"
