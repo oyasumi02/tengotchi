@@ -15,9 +15,9 @@ namespace sumistd {
     inline void WaitMs(unsigned int ms) {
         std::this_thread::sleep_for(std::chrono::milliseconds(ms));
     }
-    inline std::string ToLower(const std::string &str) {
-        std::string result = str;
+    inline std::string ToLower(std::string str) {  // Take by value
         std::transform(str.begin(), str.end(), str.begin(),
             [](unsigned char c) { return std::tolower(c); });
+        return str;
     }
 };

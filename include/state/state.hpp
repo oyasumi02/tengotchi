@@ -1,12 +1,7 @@
 #pragma once
 
 namespace State {
-    enum class Program {
-        RUNNING,
-        DEBUGGING,
-        EXITING,
-    };
-    enum class Screen {
+    enum class ScreenType {
         PET,
         FEED,
         LIGHTS,
