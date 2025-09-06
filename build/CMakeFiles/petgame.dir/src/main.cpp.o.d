@@ -1,6 +1,8 @@
 CMakeFiles/petgame.dir/src/main.cpp.o: \
  /home/jordan/Documents/coding/C++/pet/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/15.2.1/iostream \
+ /usr/include/stdc-predef.h \
+ /home/jordan/Documents/coding/C++/pet/src/../include/sumistd/sumistd.hpp \
+ /usr/include/c++/15.2.1/iostream \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -174,10 +176,8 @@ CMakeFiles/petgame.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/unicode-data.h \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc \
- /home/jordan/Documents/coding/C++/pet/src/../include/sumistd/sumistd.hpp \
- /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \
- /usr/include/c++/15.2.1/ratio \
+ /usr/include/c++/15.2.1/bits/istream.tcc /usr/include/c++/15.2.1/chrono \
+ /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
  /usr/include/c++/15.2.1/bits/parse_numbers.h \
  /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/bits/sstream.tcc \
  /usr/include/c++/15.2.1/vector \
@@ -224,4 +224,5 @@ CMakeFiles/petgame.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
  /usr/include/c++/15.2.1/pstl/execution_defs.h \
  /home/jordan/Documents/coding/C++/pet/src/../include/screen/screen.hpp \
- /home/jordan/Documents/coding/C++/pet/src/../include/state/state.hpp
+ /home/jordan/Documents/coding/C++/pet/src/../include/screen/../state/state.hpp \
+ /home/jordan/Documents/coding/C++/pet/src/../include/screen/../pet/pet.hpp

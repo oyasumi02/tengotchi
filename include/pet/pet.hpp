@@ -7,9 +7,9 @@ namespace Pet {
 
     class Tengotchi {
     private:
-        PetType pet_type = PetType::REN;
-        int hunger = 5;
-        int happiness = 5;
+        PetType pet_type;
+        int hunger;
+        int happiness;
     public:
         Tengotchi(PetType pet_type) {
             hunger = 5;
@@ -18,5 +18,7 @@ namespace Pet {
         PetType CheckPetType() { return pet_type; }
         int CheckHunger() { return hunger; }
         int CheckHappiness() { return happiness; }
+
+        void Feed() { hunger += hunger; }
     };
 };

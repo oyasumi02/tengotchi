@@ -8,11 +8,14 @@
 
 int main() {
 
+    // Input
+    std::string input = "";
+
     // Main loop flag
     bool is_running = true;
 
     // Instantiate Enum objects
-    State::ScreenType screen_type = State::ScreenType::PET;
+    State::ScreenType screen_type = State::ScreenType::DEBUG;
 
     // Now instantiate the classes
     Pet::Tengotchi *tengotchi = new Pet::Tengotchi(Pet::PetType::REN);
@@ -20,7 +23,7 @@ int main() {
     while (is_running) {
         switch (screen_type) {
             case (State::ScreenType::PET): {
-                Screen::Pet(screen_type);
+                Screen::Pet(input, screen_type, tengotchi);
                 sumistd::Wait(1);
                 is_running = false;
             } break;
@@ -44,9 +47,20 @@ int main() {
             case (State::ScreenType::STATS): {
 
             } break;
+
+            case (State::ScreenType::DEBUG): {
+                Screen::Feed(input, screen_type, tengotchi);
+                sumistd::Wait(1);
+                is_running = false;
+            } break;
         }
     }
 
+    // Free Pointers
+    delete tengotchi;
+
+    // Just to be extra sure, set them to nullptr
+    tengotchi = nullptr;
 
     return 0;
 }

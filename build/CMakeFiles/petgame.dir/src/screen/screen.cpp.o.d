@@ -2,6 +2,8 @@ CMakeFiles/petgame.dir/src/screen/screen.cpp.o: \
  /home/jordan/Documents/coding/C++/pet/src/screen/screen.cpp \
  /usr/include/stdc-predef.h \
  /home/jordan/Documents/coding/C++/pet/src/screen/../../include/screen/screen.hpp \
+ /home/jordan/Documents/coding/C++/pet/src/screen/../../include/screen/../state/state.hpp \
+ /home/jordan/Documents/coding/C++/pet/src/screen/../../include/screen/../pet/pet.hpp \
  /usr/include/c++/15.2.1/iostream \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

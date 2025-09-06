@@ -7,6 +7,8 @@ namespace State {
         LIGHTS,
         PLAY,
         DISCIPLINE,
-        STATS
+        STATS,
+        SICK,
+        DEBUG
     };
 }
