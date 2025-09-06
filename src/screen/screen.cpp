@@ -59,8 +59,11 @@ void Screen::Quit(std::string &input, State::ScreenType &screen_type, bool &is_r
     std::cout << "--> ";
     std::cin >> input;
 
+    input = sumistd::ToLower(input);
     if (input == "y") {
         std::cout << "Goodbye!" << std::endl;
         is_running = false;
+    } else if (input == "n") {
+        screen_type = State::ScreenType::QUIT;
     }
 }

@@ -29,11 +29,11 @@ int main() {
             } break;
 
             case (State::ScreenType::FEED): {
-
+                Screen::Feed(input, screen_type, tengotchi);
             } break;
 
             case (State::ScreenType::LIGHTS): {
-
+                
             } break;
 
             case (State::ScreenType::PLAY): {
@@ -53,9 +53,7 @@ int main() {
             } break;
 
             case (State::ScreenType::DEBUG): {
-                Screen::Feed(input, screen_type, tengotchi);
-                sumistd::Wait(1);
-                is_running = false;
+                Screen::Pet(input, screen_type, tengotchi);
             } break;
 
             case (State::ScreenType::QUIT): {
