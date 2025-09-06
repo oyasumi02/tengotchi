@@ -9,6 +9,7 @@ namespace State {
         DISCIPLINE,
         STATS,
         SICK,
-        DEBUG
+        DEBUG,
+        QUIT
     };
 }

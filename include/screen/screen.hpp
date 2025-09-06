@@ -7,4 +7,5 @@
 namespace Screen {
     void Pet(std::string &input, State::ScreenType &screen_type, Pet::Tengotchi *tengotchi);
     void Feed(std::string &input, State::ScreenType &screen_type, Pet::Tengotchi *tengotchi);
+    void Quit(std::string &input, State::ScreenType &screen_type, bool &is_running);
 }

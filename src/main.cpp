@@ -57,6 +57,10 @@ int main() {
                 sumistd::Wait(1);
                 is_running = false;
             } break;
+
+            case (State::ScreenType::QUIT): {
+                Screen::Quit(input, screen_type, is_running);
+            } break;
         }
     }
 
