@@ -44,6 +44,10 @@ int main() {
 
             } break;
 
+            case (State::ScreenType::SICK): {
+
+            } break;
+
             case (State::ScreenType::STATS): {
 
             } break;
