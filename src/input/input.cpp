@@ -16,8 +16,11 @@ void Input::ScreenCase(std::string &input, State::ScreenType &screen_type) {
         screen_type = State::ScreenType::SICK;
     } else if (input == "stats") {
         screen_type = State::ScreenType::STATS;
+    } else if (input == "quit") {
+        screen_type = State::ScreenType::QUIT;
     } else {
         sumistd::Flush();
         std::cout << input << " is not a valid option!" << std::endl;
+        sumistd::Wait(1);
     }
 }

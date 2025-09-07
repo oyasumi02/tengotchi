@@ -15,7 +15,7 @@ int main() {
     bool is_running = true;
 
     // Instantiate Enum objects
-    State::ScreenType screen_type = State::ScreenType::DEBUG;
+    State::ScreenType screen_type = State::ScreenType::PET;
 
     // Now instantiate the classes
     Pet::Tengotchi *tengotchi = new Pet::Tengotchi(Pet::PetType::REN);
@@ -24,8 +24,6 @@ int main() {
         switch (screen_type) {
             case (State::ScreenType::PET): {
                 Screen::Pet(input, screen_type, tengotchi);
-                sumistd::Wait(1);
-                is_running = false;
             } break;
 
             case (State::ScreenType::FEED): {

@@ -129,6 +129,30 @@ petgame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/build
 .PHONY : petgame/fast
 
+src/input/input.o: src/input/input.cpp.o
+.PHONY : src/input/input.o
+
+# target to build an object file
+src/input/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/src/input/input.cpp.o
+.PHONY : src/input/input.cpp.o
+
+src/input/input.i: src/input/input.cpp.i
+.PHONY : src/input/input.i
+
+# target to preprocess a source file
+src/input/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/src/input/input.cpp.i
+.PHONY : src/input/input.cpp.i
+
+src/input/input.s: src/input/input.cpp.s
+.PHONY : src/input/input.s
+
+# target to generate assembly for a file
+src/input/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/src/input/input.cpp.s
+.PHONY : src/input/input.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... petgame"
+	@echo "... src/input/input.o"
+	@echo "... src/input/input.i"
+	@echo "... src/input/input.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -9,6 +9,7 @@ void Screen::Pet(std::string &input, State::ScreenType &screen_type, Pet::Tengot
     std::cout << "|================================================================|" << std::endl;
     std::cout << "   {FEED}      {LIGHTS}      {PLAY}    {DISCIPLINE}     {STATS}   " << std::endl;
     std::cout << "|================================================================|" << std::endl;
+    std::cout << "                                                                  " << std::endl; // 15 x 66
     std::cout << "                                                                  " << std::endl;
     std::cout << "                                                                  " << std::endl;
     std::cout << "                                                                  " << std::endl;

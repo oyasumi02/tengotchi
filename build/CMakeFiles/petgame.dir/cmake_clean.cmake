@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/petgame.dir/link.d"
+  "CMakeFiles/petgame.dir/src/input/input.cpp.o"
+  "CMakeFiles/petgame.dir/src/input/input.cpp.o.d"
   "CMakeFiles/petgame.dir/src/main.cpp.o"
   "CMakeFiles/petgame.dir/src/main.cpp.o.d"
   "CMakeFiles/petgame.dir/src/screen/screen.cpp.o"
