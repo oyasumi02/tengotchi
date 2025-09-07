@@ -58,6 +58,8 @@ int main() {
                 Screen::Quit(input, screen_type, is_running);
             } break;
         }
+
+        // Make switch case for life stage, maybe put at top
     }
 
     // Free Pointers
