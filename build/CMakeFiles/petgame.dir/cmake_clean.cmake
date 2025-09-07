@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/petgame.dir/src/input/input.cpp.o.d"
   "CMakeFiles/petgame.dir/src/main.cpp.o"
   "CMakeFiles/petgame.dir/src/main.cpp.o.d"
+  "CMakeFiles/petgame.dir/src/pet/pet.cpp.o"
+  "CMakeFiles/petgame.dir/src/pet/pet.cpp.o.d"
   "CMakeFiles/petgame.dir/src/screen/screen.cpp.o"
   "CMakeFiles/petgame.dir/src/screen/screen.cpp.o.d"
   "petgame"

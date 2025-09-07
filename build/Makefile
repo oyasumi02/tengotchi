@@ -177,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/pet/pet.o: src/pet/pet.cpp.o
+.PHONY : src/pet/pet.o
+
+# target to build an object file
+src/pet/pet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/src/pet/pet.cpp.o
+.PHONY : src/pet/pet.cpp.o
+
+src/pet/pet.i: src/pet/pet.cpp.i
+.PHONY : src/pet/pet.i
+
+# target to preprocess a source file
+src/pet/pet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/src/pet/pet.cpp.i
+.PHONY : src/pet/pet.cpp.i
+
+src/pet/pet.s: src/pet/pet.cpp.s
+.PHONY : src/pet/pet.s
+
+# target to generate assembly for a file
+src/pet/pet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/src/pet/pet.cpp.s
+.PHONY : src/pet/pet.cpp.s
+
 src/screen/screen.o: src/screen/screen.cpp.o
 .PHONY : src/screen/screen.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/pet/pet.o"
+	@echo "... src/pet/pet.i"
+	@echo "... src/pet/pet.s"
 	@echo "... src/screen/screen.o"
 	@echo "... src/screen/screen.i"
 	@echo "... src/screen/screen.s"

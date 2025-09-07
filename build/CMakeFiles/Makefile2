@@ -85,12 +85,12 @@ clean: CMakeFiles/petgame.dir/clean
 CMakeFiles/petgame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jordan/Documents/coding/C++/pet/build/CMakeFiles --progress-num=1,2,3,4 "Built target petgame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jordan/Documents/coding/C++/pet/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target petgame"
 .PHONY : CMakeFiles/petgame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/petgame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/Documents/coding/C++/pet/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/Documents/coding/C++/pet/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/petgame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jordan/Documents/coding/C++/pet/build/CMakeFiles 0
 .PHONY : CMakeFiles/petgame.dir/rule
@@ -102,7 +102,7 @@ petgame: CMakeFiles/petgame.dir/rule
 # codegen rule for target.
 CMakeFiles/petgame.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/petgame.dir/build.make CMakeFiles/petgame.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jordan/Documents/coding/C++/pet/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target petgame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jordan/Documents/coding/C++/pet/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target petgame"
 .PHONY : CMakeFiles/petgame.dir/codegen
 
 # clean rule for target.

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jordan/Documents/coding/C++/pet/src/input/input.cpp" "CMakeFiles/petgame.dir/src/input/input.cpp.o" "gcc" "CMakeFiles/petgame.dir/src/input/input.cpp.o.d"
   "/home/jordan/Documents/coding/C++/pet/src/main.cpp" "CMakeFiles/petgame.dir/src/main.cpp.o" "gcc" "CMakeFiles/petgame.dir/src/main.cpp.o.d"
+  "/home/jordan/Documents/coding/C++/pet/src/pet/pet.cpp" "CMakeFiles/petgame.dir/src/pet/pet.cpp.o" "gcc" "CMakeFiles/petgame.dir/src/pet/pet.cpp.o.d"
   "/home/jordan/Documents/coding/C++/pet/src/screen/screen.cpp" "CMakeFiles/petgame.dir/src/screen/screen.cpp.o" "gcc" "CMakeFiles/petgame.dir/src/screen/screen.cpp.o.d"
   "" "petgame" "gcc" "CMakeFiles/petgame.dir/link.d"
   )

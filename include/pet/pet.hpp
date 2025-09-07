@@ -1,21 +1,27 @@
 #pragma once
+#include <string>
 
 namespace Pet {
     enum class PetType {
         REN
     };
 
+    std::string CheckPetTypeName(PetType pet_type);
+
     class Tengotchi {
     private:
         PetType pet_type;
+        std::string pet_name;
         int hunger;
         int happiness;
+        int age;
         bool is_sick;
         bool is_dead;
     public:
         Tengotchi(PetType pet_type) {
             hunger = 5;
             happiness = 5;
+            age = 0;
             is_sick = false;
             is_dead = false;
         }
