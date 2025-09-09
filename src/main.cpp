@@ -5,6 +5,7 @@
 #include "../include/screen/screen.hpp"
 #include "../include/state/state.hpp"
 #include "../include/pet/pet.hpp"
+#include "../include/pet/life_stage.hpp"
 
 int main() {
 
@@ -16,11 +17,41 @@ int main() {
 
     // Instantiate Enum objects
     State::ScreenType screen_type = State::ScreenType::PET;
+    LifeStage::Stage life_stage = LifeStage::Stage::EGG;
 
     // Now instantiate the classes
     Pet::Tengotchi *tengotchi = new Pet::Tengotchi(Pet::PetType::REN);
 
     while (is_running) {
+
+        // :: { UPDATE SECTOR } ::
+        switch (life_stage) {
+            case (LifeStage::Stage::EGG): {
+
+            } break;
+
+            case (LifeStage::Stage::BABY): {
+
+            } break;
+
+            case (LifeStage::Stage::CHILD): {
+
+            } break;
+
+            case (LifeStage::Stage::TEEN): {
+
+            } break;
+
+            case (LifeStage::Stage::ADULT): {
+
+            } break;
+
+            case (LifeStage::Stage::DEAD): {
+
+            } break;
+        }
+
+        // :: { DRAW SECTOR } ::
         switch (screen_type) {
             case (State::ScreenType::PET): {
                 Screen::Pet(input, screen_type, tengotchi);
